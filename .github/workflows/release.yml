@@ -36,5 +36,6 @@ jobs:
           touch test.txt
           git config --global user.email "lisowski54@gmail.com"
           git config --global user.name "Andrew Lisowski"
-          git commit -am "testing [skip ci]"
+          git add .
+          git commit -m "testing [skip ci]"
           git push origin master
